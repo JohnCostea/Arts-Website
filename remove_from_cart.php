@@ -1,7 +1,6 @@
 <?php
 /**
  * Remove from Cart - Session-based
- * Removes item from session cart
  */
 
 session_start();
@@ -41,4 +40,5 @@ if ($found) {
 } else {
     echo json_encode(['success' => false, 'message' => 'Item not found in cart']);
 }
+
 ?>
