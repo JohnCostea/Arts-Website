@@ -5,7 +5,6 @@
  * Can fetch all products or filter by category_id
  * Returns JSON array of products with all details
  * 
- * Usage:
  * - get_products.php (returns all products)
  * - get_products.php?category_id=1 (returns only paintings)
  */
@@ -61,4 +60,5 @@ echo json_encode($products);
 // Clean up
 $stmt->close();
 $conn->close();
+
 ?>
