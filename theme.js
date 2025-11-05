@@ -1,6 +1,6 @@
 /**
  * Theme Toggle with Cookies
- * Stores user's theme preference in a cookie that lasts 365 days
+ * Stores user's theme preference in a cookie
  */
 
 // Cookie helper functions
@@ -95,4 +95,5 @@ const ThemeToggle = {
 // Initialize theme when page loads
 document.addEventListener('DOMContentLoaded', function() {
     ThemeToggle.init();
+
 });
