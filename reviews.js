@@ -1,5 +1,4 @@
 /**
- * Review System JavaScript
  * Handles displaying and submitting product reviews
  */
 
@@ -372,4 +371,5 @@ const ReviewSystem = {
 // Initialize when document is ready
 document.addEventListener('DOMContentLoaded', function() {
     ReviewSystem.initializeForms();
+
 });
