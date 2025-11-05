@@ -1,7 +1,6 @@
 <?php
 /**
  * User Registration with Validation
- * Handles new user account creation with comprehensive validation
  */
 
 header('Content-Type: application/json');
@@ -101,4 +100,5 @@ if ($stmt->execute()) {
 $stmt->close();
 $conn->close();
 exit;
+
 ?>
