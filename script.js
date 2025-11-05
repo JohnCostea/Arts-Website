@@ -1,17 +1,5 @@
 /**
- * John Costea Art Creations - Main JavaScript File (Updated with Reviews)
- * 
- * This file handles all frontend functionality including:
- * - User authentication (login/register/logout)
- * - Product display and loading
- * - Shopping cart management
- * - Checkout process
- * - Modal windows
- * - Toast notifications
- * - Product reviews (NEW)
- * 
- * All cart and product data is stored in the database for persistence
- * User must be logged in to use cart functionality
+ * John Costea Art Creations - Main JavaScript File
  */
 
 // ==========================================================
@@ -840,4 +828,5 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
+
 });
