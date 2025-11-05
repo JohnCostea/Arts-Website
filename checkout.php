@@ -1,7 +1,6 @@
 <?php
 /**
  * Checkout with Validation and Price Verification
- * Handles order creation with comprehensive validation and security measures
  */
 
 session_start();
@@ -250,4 +249,5 @@ try {
 
 $conn->close();
 exit;
+
 ?>
