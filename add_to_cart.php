@@ -1,7 +1,7 @@
 <?php
 /**
  * Add to Cart - Session-based
- * Stores cart in PHP session instead of database
+ * Stores cart in PHP session
  */
 
 session_start();
@@ -67,4 +67,5 @@ echo json_encode(['success' => true, 'message' => 'Added to cart']);
 
 $stmt->close();
 $conn->close();
+
 ?>
