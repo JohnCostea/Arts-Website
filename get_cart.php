@@ -1,6 +1,6 @@
 <?php
 /**
- * Get Cart - Session-based
+ * Get Cart
  * Returns cart items from session storage
  */
 
@@ -17,4 +17,5 @@ if (!isset($_SESSION['user_id'])) {
 $cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
 
 echo json_encode(['success' => true, 'cart' => $cart]);
+
 ?>
