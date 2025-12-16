@@ -1,13 +1,10 @@
 <?php
 /**
- * Database Setup Script for John Costea Art Creations
- * Session-based Cart Version (No cart table)
+ * Database Setup
+ * Session-based Cart
  * 
  * This script creates all necessary tables for the e-commerce website
- * Cart is stored in sessions, not database
- * 
- * Run this file once to set up the database structure
- * WARNING: This will drop existing tables and recreate them
+ * Cart is stored in sessions
  */
 
 // Database connection parameters
@@ -185,7 +182,7 @@ if ($conn->query($sql) === TRUE) {
 // Display final summary
 echo "<br>";
 echo "=================================================<br>";
-echo "✅ DATABASE SETUP COMPLETE!<br>";
+echo "DATABASE SETUP COMPLETE!<br>";
 echo "=================================================<br>";
 echo "Total tables created: 7 <br>";
 echo "<br>";
@@ -205,4 +202,5 @@ echo "- Place orders with shipping information<br>";
 echo "<br>";
 
 $conn->close();
+
 ?>
