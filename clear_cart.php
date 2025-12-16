@@ -1,6 +1,6 @@
 <?php
 /**
- * Clear Cart - Session-based
+ * Clear Cart
  * Removes all items from session cart
  */
 
@@ -17,4 +17,5 @@ if (!isset($_SESSION['user_id'])) {
 $_SESSION['cart'] = [];
 
 echo json_encode(['success' => true, 'message' => 'Cart cleared']);
+
 ?>
