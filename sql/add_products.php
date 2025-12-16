@@ -342,8 +342,6 @@ if ($stmt->execute()) {
     echo "Error: " . $stmt->error;
 }
 
-
-
 $name = "Templar Helmet T-Shirt";
 $description = "T-Shirt with a templar knight helmet print. Printed on a 100% cotton t-shirt.";
 $price = 69.99;
@@ -361,4 +359,5 @@ if ($stmt->execute()) {
 
 $stmt->close();
 $conn->close();
+
 ?>
