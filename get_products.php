@@ -7,7 +7,6 @@
  * 
  * Usage:
  * - get_products.php (returns all products)
- * - get_products.php?category_id=1 (returns only paintings)
  */
 
 // Set response content type to JSON
@@ -61,4 +60,5 @@ echo json_encode($products);
 // Clean up
 $stmt->close();
 $conn->close();
+
 ?>
